@@ -1,0 +1,56 @@
+.about {
+  background-color: #0a2850;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+.about__title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 251px;
+  margin-left: 80px;
+  margin-top: 100px;
+  z-index: 1;
+  position: relative;
+}
+.about__content {
+  font-family: "Noti Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 119px;
+  margin-right: 80px;
+  margin-bottom: 173px;
+  margin-left: auto;
+  max-width: 660px;
+}
+.about__paragraph {
+  margin: 0 0 20px;
+}
+.about__paragraph:last-child {
+  margin-bottom: auto;
+}
+.about__circle {
+  width: 426px;
+  height: 426px;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+}
+
+.about__circle_animation_bullred {
+  animation: pulsate 1.3s ease-in-out infinite;
+  transform: scale(1.2);
+  transition-delay: 0s;
+  width: 426px;
+  height: 426px;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+}
