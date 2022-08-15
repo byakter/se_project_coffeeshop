@@ -13,4 +13,5 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+I think adding a Take-Away form so customers could have made their order in advance or even delivery to their house.
+Adding Photo gallery of the products in the menu.
