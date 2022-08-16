@@ -56,13 +56,14 @@
   padding-top: 32px;
 }
 .form__checkbox {
-  display: grid;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  
 }
 .form__input_type_checkbox {
   width: 20px;
   height: 20px;
   color: black;
   font-weight: 500;
+  vertical-align: middle;
 }

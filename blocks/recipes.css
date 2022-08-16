@@ -25,14 +25,15 @@
   line-height: 30px;
 }
 .recipes__content {
-  width: 1000px;
   display: flex;
+  justify-content: center;
+  gap: 40px;
   margin: auto;
 }
 .recipes__video {
   padding-top: 80px;
   padding-bottom: 215px;
-  margin: auto;
+
   display: flex;
   flex-direction: column;
 }
@@ -44,5 +45,4 @@
   display: flex;
   justify-content: space-between;
   margin-top: 24px;
-  
 }
