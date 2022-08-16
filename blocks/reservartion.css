@@ -55,9 +55,10 @@
   font-weight: 500;
   padding-top: 32px;
 }
-.recipes__checkbox {
-  display: flex;
+.form__checkbox {
+  display: grid;
   justify-content: center;
+  
 }
 .form__input_type_checkbox {
   width: 20px;
