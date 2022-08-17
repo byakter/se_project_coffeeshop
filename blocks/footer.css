@@ -20,13 +20,11 @@
   list-style: none;
   padding-left: 0;
 }
-.footer__content-link {
+.footer__social-link {
   color: #fff;
   text-decoration: none;
-
-  line-height: 16px;
 }
-.footer__content-link:hover {
+.footer__social-link:hover {
   color: #c1c1c1;
   transition: linear 0.3s;
 }

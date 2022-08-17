@@ -1,3 +1,5 @@
+@import url(./logo.css);
+@import url(./nav.css);
 .header {
   position: relative;
   background-color: #ffffff;
@@ -9,38 +11,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-.logo {
-  position: absolute;
-  width: 125px;
-  height: 142px;
-  margin-top: 30px;
-  margin-left: 30px;
-  padding-bottom: 80px;
-}
-.nav {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 80px;
-  padding-top: 30px;
-  font-weight: 500;
-}
-
-.nav__link {
-  list-style: none;
-  column-gap: 20px;
-  display: flex;
-
-  margin-bottom: auto;
-  text-decoration: none;
-  color: #000000;
-}
-.nav__link:hover {
-  color: #2f80ed;
-  transition: 0.3s linear;
 }
 
 .header__image {
@@ -49,16 +19,19 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: 0;
 }
 .header__title {
   max-width: 729px;
   margin-left: 80px;
-
+  z-index: 1;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
   display: flex;
   flex-direction: column;
+  margin-top: 202px;
+  margin-bottom: 28px;
 }
 .header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -77,6 +50,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 250px;
 }
 .header__footer {
   font-weight: 500;
@@ -87,8 +61,11 @@
 }
 .header__paragraph {
   margin: 0;
+  z-index: 1;
+  color: #6f6f6f;
 }
 .header__paragraph-adress {
   padding-top: 40px;
   padding-right: 80px;
+  z-index: 2;
 }
