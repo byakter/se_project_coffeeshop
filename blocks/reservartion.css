@@ -18,7 +18,7 @@
 .reservation__form {
   margin-top: 0;
 }
-.form__fielset {
+.form__fieldset {
   display: flex;
   flex-direction: column;
   border-radius: 4px;
