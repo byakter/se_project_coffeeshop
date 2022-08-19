@@ -18,18 +18,3 @@
 .reservation__form {
   margin-top: 0;
 }
-.form__fieldset {
-  display: flex;
-  flex-direction: column;
-  border-radius: 4px;
-  max-width: 385px;
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 120px;
-
-  border: none;
-}

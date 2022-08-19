@@ -9,6 +9,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 }
 
 .header__image {
@@ -47,11 +49,12 @@
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
+  margin-top: 0;
   line-height: 30px;
-  margin-bottom: 250px;
 }
 .header__footer {
   font-weight: 500;
+  margin-top: auto;
   margin-left: 80px;
   margin-bottom: 40px;
   display: flex;
