@@ -6,13 +6,18 @@
   padding-left: 0;
   margin-bottom: 0;
 }
-
-.nav__link {
+.nav__links {
   display: flex;
   justify-content: space-around;
   justify-content: flex-end;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style: none;
   column-gap: 20px;
+}
+
+.nav__link {
   margin-bottom: auto;
   text-decoration: none;
   color: #000000;
