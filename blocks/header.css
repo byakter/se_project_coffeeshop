@@ -52,12 +52,20 @@
   margin-top: 0;
   line-height: 30px;
 }
+
 .header__footer {
+  padding-left: 80px;
+}
+.header__footer-column {
   font-weight: 500;
   margin-top: auto;
-  margin-left: 80px;
-  margin-bottom: 40px;
+  margin-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
   display: flex;
+  padding-top: 0;
+  align-items: flex-end;
+  justify-content: flex-end;
   justify-content: space-between;
 }
 .header__paragraph {
@@ -65,8 +73,7 @@
   z-index: 1;
   color: #6f6f6f;
 }
-.header__paragraph-adress {
-  padding-top: 40px;
+.header__paragraph:last-of-type {
   padding-right: 80px;
-  z-index: 2;
+  padding-bottom: 40px;
 }
