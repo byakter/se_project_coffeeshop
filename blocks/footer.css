@@ -23,6 +23,12 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+.footer__list-item {
+  margin-bottom: 16px;
+}
+.footer__list-item:last-of-type {
+  margin-bottom: 0;
+}
 .footer__social-link {
   color: #fff;
   text-decoration: none;
