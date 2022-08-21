@@ -22,8 +22,8 @@
   font-weight: 500;
   margin-top: 32px;
 }
-.form__label:first-child {
-  padding-top: 0;
+.form__label:first-of-type {
+  margin-top: 0;
 }
 .form__fieldset {
   display: flex;
@@ -59,4 +59,7 @@
   vertical-align: middle;
   border: none;
   padding-bottom: 0;
+}
+.form__checkbox {
+  margin-right: 12px;
 }
